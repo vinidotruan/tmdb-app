@@ -1,0 +1,91 @@
+.film-info {
+    max-width: 97%;
+    margin: 20px auto 0;
+    padding: 0 20px;
+}
+
+.info-box {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    border-radius: 25px;
+}
+
+.info-box .info-content {
+    padding: 20px;
+    margin-top: auto;
+}
+
+.info-box .info-content .original-title {
+    margin-top: 35%;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.info-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.info-list .info-item {
+    background-color: white;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 4.7rem;
+    height: 4.5rem;
+    word-wrap:break-word;
+    margin: auto;
+}
+
+.info-list .info-item .info-title {
+    color: #5c5c5c;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 20%
+}
+
+.info-list .info-item .info-content {
+    color: #222020;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10%;
+    font-size: 18px;
+}
+
+.overview {
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 18px;
+    word-wrap:break-word;
+}
+
+.overview .title {
+    font-size: 16px;
+    color: #5c5c5c;
+    margin-bottom: 10px;
+}
+
+.arrow-back {
+    font-weight: bold;
+    position: absolute;
+    margin-left: .5rem;
+    margin-top: .5rem;
+    background: transparent;
+    border: none;
+    color: white;
+}
+
+.arrow-back a {
+    text-decoration: none;
+    color: white;
+}
+
+.arrow-back i {
+    font-size: 40px;
+}

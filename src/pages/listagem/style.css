@@ -1,0 +1,65 @@
+.film-list {
+    max-width: 700px;
+    margin: 20px auto 0;
+    padding: 0 20px;
+}
+
+.film-list .info-box {
+    margin-top: 0;
+}
+
+.film-list article {
+    background: #FFF;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between ;
+}
+
+.film-list article img.thumbnail {
+    width: 20%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-left: -20px;
+}
+
+.film-list article .index {
+    font-size: 30px;
+    font-weight: bold;
+    margin: auto 10px auto 20px;
+}
+
+
+.film-list article a {
+    text-decoration: none;
+    margin: auto;
+}
+
+.film-list article .main-content {
+    margin: auto;
+}
+
+.film-list article .main-content .title {
+    font-size: 16px;
+    color: #454646
+
+
+
+}
+
+.film-list article .main-content .date {
+    color:  #b3b3b3;
+    font-size:12px;
+}
+
+.film-list article .popularity {
+    margin: auto 0 auto 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.film-list article .popularity p {
+    font-size: 10px;
+}
